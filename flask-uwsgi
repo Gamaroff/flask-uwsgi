@@ -1,11 +1,11 @@
-server {
-    server_name ubuntu.local;
+#server {
+#    server_name ubuntu.local;
 
-    location / {
-        root /var/www;
-        index index.html;
-    }
-}
+#    location / {
+#        root /var/www;
+#        index index.html;
+#    }
+#}
 
 server {
     server_name flask-uwsgi.ubuntu.local;
